@@ -24,13 +24,61 @@
         </li>
     </ol>
     <ul>
-       <li> osmanina university</li>
+        <li> osmanina university</li>
         <li>Salar museum</li>
         <li>Badshahi Ashurkhana</li>
         <li>Charminar</li>
-       <li> ISKCON Hyderabad Sri Sri Radha Madanmohan Mandir</li>
+        <li> ISKCON Hyderabad Sri Sri Radha Madanmohan Mandir</li>
     </ul>
     <a href="aboutme.html">the link to aboutme</a>
+
+    <hr>
+    <h2>Famous places</h2>
+    <p>Here the below table is about famous locations in the city and the time required for visiting</p>
+    <table border="1px">
+        <tr>
+            <th> Name of the city </th>
+            <th> location in city </th>
+            <th> Time required </th>
+        </tr>
+        <tr>
+            <td> Vijayawada </td>
+            <td> prakasam barrage </td>
+            <td> 1 hour </td>
+        </tr>
+        <tr>
+            <td> Hyderabad </td>
+            <td> cable barrage </td>
+            <td> 30 min </td>
+        </tr>
+        <tr>
+            <td> vizag </td>
+            <td> Araku </td>
+            <td> 48 hours </td>
+        </tr>
+        <tr>
+            <td> Gokarna </td>
+            <td> Gokarna Beaches </td>
+            <td> 5 hours </td>
+        </tr>
+    </table>
+
+<hr>
+
+<h2> Code snippet php</h2>
+<blockquote> Get the full URL in PHP </blockquote>
+<a href="https://stackoverflow.com/questions/9816889/how-can-i-echo-or-print-an-array-in-php">click here for stack overflow source</a>
+
+<pre>
+    function getUrl() {
+        $url  = @( $_SERVER["HTTPS"] != 'on' ) ? 'http://'.$_SERVER["SERVER_NAME"] :  'https://'.$_SERVER["SERVER_NAME"];
+        $url .= ( $_SERVER["SERVER_PORT"] !== 80 ) ? ":".$_SERVER["SERVER_PORT"] : "";
+        $url .= $_SERVER["REQUEST_URI"];
+        return $url;
+      }
+</pre>
+
 </body>
+
 
 </html>
